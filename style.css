@@ -3,3 +3,25 @@ body{
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
+.header-content{
+    color: #fff;
+    text-align: center;
+    background-image: url(images/top-banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.header-overlay{
+    padding: 300px 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+h1{
+    font-size: 50px;
+}
+.donate-btn{
+    color: #fff;
+    padding: 10px 40px;
+    font-weight: 700;
+    background-color: #FF5959;
+    text-decoration: none;
+    border-radius: 5px;
+}
