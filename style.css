@@ -39,17 +39,33 @@ h2{
     display: flex;
     justify-content: space-around;
 }
-.donation-amount p{
+.donation-amount span{
     display: flex;
-    width: 100px;
-    height: 100px;
     margin-top: 50px;
     align-items: center;
     justify-content: center;
     font-size: 20px;
     font-weight: 600;
+    margin: 100px 0;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 30px gray;
 }
 .orange-color{
     color: #FF5959;
     background-color: #FFEEEE;
+    border: 3px solid #ff5959;
+}
+.donation-input{
+    text-align: center;
+}
+.donation-input input{
+    width: 100%;
+    border-top: none;
+    border-right: none;
+    border-bottom: 2px solid gray;
+    border-left: none;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 40px;
 }
